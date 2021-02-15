@@ -1,0 +1,23 @@
+.card-container {
+  width: 100%;
+  margin: 10px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  width: 75%;
+}
+.list-group-item ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.cert-title {
+  font-weight: 500;
+  margin: 8px 0;
+}
+.type {
+  font-weight: 500;
+  text-transform: capitalize;
+}

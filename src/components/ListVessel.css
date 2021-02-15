@@ -1,0 +1,46 @@
+.list-vessel {
+  width: 100%;
+}
+.card {
+  margin: 0 auto;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: var(--headingWeight);
+  font-weight: var(--headingWeight);
+  cursor: pointer;
+  color: var(--darkBrown);
+}
+.card-header i {
+  font-size: 140%;
+  color: var(--darkBrown);
+}
+.card-body ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  color: var(--darkBrown);
+}
+.list-vessel {
+  position: relative;
+}
+.list-vessel > .btn {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  left: 138px;
+  top: 2px;
+  padding: 0;
+}
+.list-vessel > .btn > img {
+  width: 24px;
+  height: 24px;
+  object-fit: cover;
+}
+
+.card-body .btn {
+  margin: 12px 0;
+}

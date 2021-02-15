@@ -1,0 +1,11 @@
+.header-menu {
+  width: 40%;
+}
+.form-group {
+  padding: 20px 30px;
+  border: none;
+  border-radius: 5px;
+  font-size: var(--baseFontSize);
+  font-weight: var(--headingWeight);
+  background-color: #fff;
+}
