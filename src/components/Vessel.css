@@ -8,16 +8,23 @@
 .card {
   width: 75%;
 }
-.list-group-item ul {
+.card-title {
+  font-family: var(--baseFont);
+  font-weight: var(--bodyWeight);
+  color: var(--darkBrown);
+}
+.list-group > .list-group-item {
+  font-family: var(--baseFont);
+  font-weight: var(--bodyWeight);
+  color: var(--darkBrown);
+}
+.list-group .list-group-item ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
-.cert-title {
-  font-weight: 500;
-  margin: 8px 0;
-}
+
 .type {
-  font-weight: 500;
+  font-weight: var(--headingWeight);
   text-transform: capitalize;
 }

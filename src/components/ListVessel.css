@@ -9,7 +9,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-family: var(--headingWeight);
+  font-family: var(--baseFont);
   font-weight: var(--headingWeight);
   cursor: pointer;
   color: var(--darkBrown);
@@ -26,6 +26,10 @@
 }
 .list-vessel {
   position: relative;
+}
+.list-vessel > .accordion {
+  font-family: var(--baseFont);
+  color: var(--darkBrown);
 }
 .list-vessel > .btn {
   position: relative;

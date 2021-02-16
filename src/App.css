@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;1,300&family=Poppins:wght@300;400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
 
 :root {
   /* Colour Palette  */
@@ -6,11 +6,10 @@
   --darkBrown: #281713;
 
   /* Font */
-  --headingFont: "Poppins", sans-serif;
-  --bodyFont: "Open Sans", sans-serif;
+  --baseFont: "Open Sans", sans-serif;
   --baseFontSize: 120%;
-  --headingWeight: 500;
   --bodyWeight: 400;
+  --headingWeight: 600;
 }
 
 * {
@@ -21,9 +20,6 @@
 
 body {
   background: var(--red) !important;
-  font-size: var(--baseFontSize);
-  font-family: var(--bodyFont);
-  font-weight: var(--bodyWeight);
 }
 .container {
   max-width: 100%;
